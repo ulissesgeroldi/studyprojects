@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+
+void imprime(int num){
+     
+     register int i;
+     
+     for(i=0 ; i<=rand()%6 ; i++){
+     
+             printf("%d", num);
+     }
+
+}
+
+int main(){
+     
+     while(1){
+     
+              imprime(1);
+              imprime(2);
+              imprime(3);
+              imprime(4);
+              imprime(5);
+     }
+}
